@@ -11,7 +11,7 @@ export interface ProductCardProps {
   bestseller?: boolean;
 }
 
-const ProductCard = ({ id, name, description, price, image, category, bestseller }: ProductCardProps) => {
+const ProductCard = ({ id, name, description, image, category, bestseller }: ProductCardProps) => {
   return (
     <div className="bg-white rounded-lg overflow-hidden shadow-md card-hover">
       <div className="relative">
@@ -38,14 +38,6 @@ const ProductCard = ({ id, name, description, price, image, category, bestseller
         <p className="text-gray-600 text-sm line-clamp-2 mb-3">
           {description}
         </p>
-        <div className="flex justify-between items-center">
-          <span className="text-safex-navy font-bold">₹{price.toLocaleString()}</span>
-          <button 
-            className="bg-safex-red text-white px-3 py-1 rounded-md hover:bg-red-700 transition-colors text-sm"
-          >
-            Add to Cart
-          </button>
-        </div>
       </div>
     </div>
   );

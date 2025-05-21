@@ -1,7 +1,6 @@
 
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
-import { ShoppingCart, Search } from "lucide-react";
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -52,15 +51,6 @@ const Navbar = () => {
             <Link to="/contact" className="text-safex-navy hover:text-safex-red font-medium transition-colors">
               Contact
             </Link>
-            <Link to="/cart" className="relative">
-              <ShoppingCart className="text-safex-navy hover:text-safex-red transition-colors" />
-              <span className="absolute -top-2 -right-2 bg-safex-red text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">
-                0
-              </span>
-            </Link>
-            <button className="text-safex-navy hover:text-safex-red transition-colors">
-              <Search className="h-5 w-5" />
-            </button>
           </div>
 
           {/* Mobile Navigation */}
@@ -127,21 +117,6 @@ const Navbar = () => {
             >
               Contact
             </Link>
-            <div className="flex justify-between items-center py-2 px-4">
-              <Link 
-                to="/cart" 
-                className="text-safex-navy hover:text-safex-red transition-colors relative"
-                onClick={() => setIsOpen(false)}
-              >
-                <ShoppingCart className="h-5 w-5" />
-                <span className="absolute -top-2 -right-2 bg-safex-red text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">
-                  0
-                </span>
-              </Link>
-              <button className="text-safex-navy hover:text-safex-red transition-colors">
-                <Search className="h-5 w-5" />
-              </button>
-            </div>
           </div>
         )}
       </div>
