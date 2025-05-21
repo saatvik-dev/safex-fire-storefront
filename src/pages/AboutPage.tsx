@@ -8,7 +8,7 @@ const AboutPage = () => {
       <div className="bg-safex-navy text-white py-16">
         <div className="container-custom">
           <h1 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-            About Safex Fire Services
+            About Alankrita Fire Service
           </h1>
           <p className="text-lg text-gray-300 max-w-3xl">
             Over 50 years of excellence in fire safety and protection solutions across India.
@@ -25,19 +25,19 @@ const AboutPage = () => {
                 Our <span className="text-safex-red">Story</span>
               </h2>
               <p className="text-gray-600 mb-4">
-                Founded in 1970 by fire safety expert and engineer Mr. Rajesh Sharma, Safex Fire Services began as a small workshop producing fire extinguishers in Mumbai. With a vision to create a safer India, Mr. Sharma focused on quality, reliability, and innovative fire safety solutions.
+                Founded in 1970 by fire safety expert and engineer Mr. Rajesh Sharma, Alankrita Fire Service began as a small workshop producing fire extinguishers in Mumbai. With a vision to create a safer India, Mr. Sharma focused on quality, reliability, and innovative fire safety solutions.
               </p>
               <p className="text-gray-600 mb-4">
-                Over the years, Safex has grown from its humble beginnings to become one of India's most trusted and respected fire safety equipment manufacturers and service providers, with operations spanning across the country.
+                Over the years, Alankrita has grown from its humble beginnings to become one of India's most trusted and respected fire safety equipment manufacturers and service providers, with operations spanning across the country.
               </p>
               <p className="text-gray-600">
-                Today, led by the second generation of the Sharma family, Safex continues its tradition of excellence while embracing modern technology and international safety standards to provide comprehensive fire protection solutions.
+                Today, led by the second generation of the Sharma family, Alankrita continues its tradition of excellence while embracing modern technology and international safety standards to provide comprehensive fire protection solutions.
               </p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
               <img 
                 src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=1200" 
-                alt="Safex History"
+                alt="Alankrita History"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -135,7 +135,7 @@ const AboutPage = () => {
               <h3 className="text-xl font-semibold text-safex-navy">Vikram Sharma</h3>
               <p className="text-safex-red font-medium">Chief Executive Officer</p>
               <p className="text-gray-600 mt-2">
-                Leading Safex's strategic vision and growth since 2005.
+                Leading Alankrita's strategic vision and growth since 2005.
               </p>
             </div>
             

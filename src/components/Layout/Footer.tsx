@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-heading font-bold mb-4">Safex Fire Services Ltd</h3>
+            <h3 className="text-xl font-heading font-bold mb-4">Alankrita Fire Service</h3>
             <p className="text-gray-300 mb-4">
               Guardians Against Fire Hazards for over 50 years. India's trusted fire protection brand.
             </p>
@@ -92,7 +92,7 @@ const Footer = () => {
               <span className="font-semibold">Phone:</span> +91 1234567890
             </p>
             <p className="text-gray-300 mb-4">
-              <span className="font-semibold">Email:</span> info@safexfire.com
+              <span className="font-semibold">Email:</span> info@alankritafire.com
             </p>
             <Link 
               to="/contact" 
@@ -107,7 +107,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              &copy; {new Date().getFullYear()} Safex Fire Services Limited. All rights reserved.
+              &copy; {new Date().getFullYear()} Alankrita Fire Service. All rights reserved.
             </p>
             <div className="mt-4 md:mt-0 flex space-x-4">
               <Link to="/privacy-policy" className="text-gray-400 text-sm hover:text-white transition-colors">
